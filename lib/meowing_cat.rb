@@ -1,4 +1,6 @@
 class Cat
+  attr_reader :name 
+  attr_writer :name
   
   def name=(new_name)
     @name = new_name
